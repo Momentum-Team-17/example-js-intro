@@ -10,15 +10,15 @@ favoriteToday = "Great Horned Owl";
 const permanentFav = "Great Blue Heron";
 // use const when we don't want the value to change
 
-// console.log(
-//   "My favorite bird today is the",
-//   favoriteToday,
-//   "but my all time favorite is",
-//   permanentFav
-// );
+console.log(
+  "My favorite bird today is the",
+  favoriteToday,
+  "but my all time favorite is",
+  permanentFav
+);
 
-// let year = prompt("What year were you born in? ");
-// console.log("birth year:", year);
+let year = prompt("What year were you born in? ");
+console.log("birth year:", year);
 
 // from the birth year, tell the user what generation they are part of
 
@@ -28,33 +28,33 @@ const permanentFav = "Great Blue Heron";
 // Boomers II (a/k/a Generation Jones)* 1955 – 1964 59 – 68
 // Boomers I* 1946 – 1954 69 – 77
 
-// if (year >= 1965 && year <= 1980) {
-//   alert("When was your last colonoscopy?");
-// } else if (year >= 1981 && year <= 1996) {
-//   alert("How's your student loan debt?");
-// } else if (year >= 1996 && year <= 2010) {
-//   alert("Slay no cap on god full send fr fr");
-// }
+if (year >= 1965 && year <= 1980) {
+  alert("When was your last colonoscopy?");
+} else if (year >= 1981 && year <= 1996) {
+  alert("How's your student loan debt?");
+} else if (year >= 1996 && year <= 2010) {
+  alert("Slay no cap on god full send fr fr");
+}
 
-// value = prompt("Enter something");
+value = prompt("Enter something");
 
-// if (value) {
-//   // if value is truthy (evaluates to true), the code in the {} will execute
-//   console.log("You entered", value);
-// } else {
-//   console.log("You didn't enter anything");
-// }
+if (value) {
+  // if value is truthy (evaluates to true), the code in the {} will execute
+  console.log("You entered", value);
+} else {
+  console.log("You didn't enter anything");
+}
 
-// if (guess > number) {
-//   alert("Too high!");
-// } else if (guess < number) {
-//   alert("Too low!");
-// } else if (guess === number) {
-//   alert("You got it!");
-// } else {
-//   alert("What you guessed was not a number");
-//   // handle input that isn't a number
-// }
+if (guess > number) {
+  alert("Too high!");
+} else if (guess < number) {
+  alert("Too low!");
+} else if (guess === number) {
+  alert("You got it!");
+} else {
+  alert("What you guessed was not a number");
+  // handle input that isn't a number
+}
 
 let number = 56;
 // refactor this game
